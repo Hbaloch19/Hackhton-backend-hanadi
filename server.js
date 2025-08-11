@@ -10,7 +10,7 @@ const app = express();
 
 // CORS setup to allow Vite frontend
 app.use(cors({
-  origin: "http://localhost:5175", // Change to your frontend URL in production
+  origin: "*", // Change to your frontend URL in production
   credentials: true
 }));
 
